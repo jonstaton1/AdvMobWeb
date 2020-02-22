@@ -1,0 +1,61 @@
+@media only screen and (max-width: 768px) {
+    #homeText {display: none}
+}
+@media only screen and (min-width: 768px) {
+    #homeImg {display: none}
+}
+
+
+#homeIcon {
+  max-height:4em;
+  padding:5px;
+}
+
+.itemTypeLink {
+  border: 5px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: lightgray;
+  margin-bottom: 2em;
+}
+
+.itemTypeImg {
+  max-width: 80%;
+}
+.recentItemImg {
+  max-width: 100%;
+}
+.galleryImg {
+  max-width: 100%;
+}
+.galleryItemImg{
+max-width: 100%;
+}
+
+
+
+
+.galleryItemsRow {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.galleryItemsRow > .row > .col-xs-4 {
+  display: inline-block;
+  float: none;
+}
+
+
+
+
+
+/*.nav-link {
+    display:table;
+    width:100%;
+    margin: 0;
+}
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
+*/
